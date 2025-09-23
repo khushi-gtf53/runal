@@ -5,22 +5,139 @@
   --foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html, body {
+  height: 100%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+#smooth-content {
+  will-change: transform;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/assets/fonts/Montserrat-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Montserrat Medium';
+  src: url(/assets/fonts/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Tenor Sans';
+  src: url(/assets/fonts/TenorSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Minion 3 Display Regular';
+  src: url(/assets/fonts/Minion3Display-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Minion 3 Display';
+  src: url(/assets/fonts/Minion3Display-Italic.ttf);
+}
+
+@font-face {
+  font-family: 'Minion 3 Display SemiBold';
+  src: url(/assets/fonts/Minion3Display-Semibold.ttf);
+}
+
+.tenor_font{
+  font-family: 'Tenor Sans';
+}
+
+.minion_font{
+  font-family: 'Minion 3 Display Regular';
+}
+
+.minion_font_semibold{
+  font-family: 'Minion 3 Display SemiBold';
+}
+
+.minion_font_italic{
+  font-family: 'Minion 3 Display';
+}
+
+.montserrat_medium{
+    font-family: 'Montserrat Medium';
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Montserrat";
+  overflow-x: hidden;
+  margin: 0;
+  position: relative;
+  font-size: 14px !important;
+  background: #000;
+  text-transform: capitalize;
+  letter-spacing: 1px !important;
+  line-height: 26px !important;
+  color: #fff;
+}
+
+.text-primarygold{
+  color: #EABB85;
+}
+
+.bg-primarygold{
+  background-color: #EABB85;
+}
+
+.text-gradient-gold {
+  background: linear-gradient(
+    50deg,
+    #bc7922 13.91%,
+    #be8130 21.54%,
+    #c28a3d 30.26%,
+    #daa24e 40.07%,
+    #edb04d 48.78%,
+    #edb153 57.5%,
+    #e6a846 67.31%,
+    #df9b30 77.12%,
+    #d78f23 82.56%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent; 
+}
+
+.btn-radial {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn-radial::after {
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  width: 200%;
+  height: 200%;
+  background: #EAC78E; 
+  border-radius: 50%;
+  transform: translateX(-50%) scale(0);
+  transform-origin: bottom center; 
+  transition: transform 0.5s ease;
+  z-index: -1;
+  transition-duration: 1.2s;
+}
+
+.btn-radial:hover::after {
+  transform: translateX(-50%) scale(1);
+}
+
+/* Mobile resposnive  */
+@media only screen and (max-width: 600px) {
+  body{
+    font-size: 12px !important;
+  letter-spacing: 0.8px !important;
+  line-height: 24px !important;
+  }
 }
