@@ -170,7 +170,7 @@ const ProjectTimeline = () => {
   };
 
   return (
-    <section ref={sectionRef} className="timeline w-full min-h-screen text-white py-16 sm:py-24 relative overflow-hidden">
+    <section ref={sectionRef} className="timeline w-full min-h-screen text-white py-10 sm:py-24 relative overflow-hidden">
       <div ref={slidesRef} className="timeline flex w-full h-full">
         {projects.map((project, i) => (
           <div key={i} className="project flex-shrink-0 w-screen h-full snap-start z-30 relative px-6 sm:px-20">

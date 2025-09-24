@@ -71,7 +71,7 @@ const Developments = () => {
   }, []);
 
   return (
-    <section className="relative w-full sm:h-screen py-20 bg-black text-white overflow-hidden">
+    <section className="relative w-full sm:h-screen py-10 md:py-20 bg-black text-white overflow-hidden">
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
         <Image
           ref={imgRef}

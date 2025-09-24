@@ -8,7 +8,7 @@ import SlideIn from "@/utils/Animations/SlideIn";
 
 const IconicProperties = () => {
     return (
-        <section className="relative w-full sm:h-screen bg-black text-white overflow-hidden py-14">
+        <section className="relative w-full sm:h-screen bg-black text-white overflow-hidden py-10 md:py-14">
             {/* Background Pattern */}
             <div className="absolute inset-0 flex justify-center items-center pointer-events-none">
                 <Image

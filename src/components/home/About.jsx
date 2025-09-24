@@ -32,7 +32,7 @@ const About = () => {
   //}, []);
 
   return (
-    <section className="relative w-full sm:h-screen pt-20 bg-black text-white overflow-hidden">
+    <section className="relative w-full sm:h-screen pt-10 md:pt-20 bg-black text-white overflow-hidden">
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none overflow-hidden">
         <div
           // ref={curtainRef}

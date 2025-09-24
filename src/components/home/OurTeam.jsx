@@ -59,7 +59,7 @@ const OurTeam = () => {
       <div className="grid grid-cols-12">
         {/* Left side heading */}
         <div className="col-span-12 sm:col-span-5 w-full h-full">
-          <div className="flex flex-col py-28 sm:py-0 justify-center w-full h-full relative gap-5 items-center sm:max-w-[60%] mx-auto">
+          <div className="flex flex-col py-10 sm:py-0 justify-center w-full h-full relative gap-5 items-center sm:max-w-[60%] mx-auto">
             <div className="absolute inset-0 flex justify-center items-start pointer-events-none">
               <Image
                 src="/assets/common/brand_full_pattern.webp"
@@ -161,8 +161,6 @@ const OurTeam = () => {
           </div>
         </div>
       </div>
-
-
     </section>
   );
 };

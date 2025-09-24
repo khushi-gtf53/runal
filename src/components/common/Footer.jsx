@@ -73,7 +73,7 @@ const Footer = () => {
                             </ul>
                         </div>
                     </div>
-                    
+
                     <div className="col-span-6 sm:col-span-2 mt-10 sm:mt-0">
                         <div className="flex flex-col items-end ">
                             <div>
@@ -114,4 +114,4 @@ const Footer = () => {
     )
 }
 
-export default Footer
+export default Footer;
