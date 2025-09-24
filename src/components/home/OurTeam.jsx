@@ -80,7 +80,7 @@ const OurTeam = () => {
           </div>
         </div>
 
-        <div className="col-span-12 sm:col-span-7 h-full">
+        <div className="col-span-12 sm:col-span-7 pt-24 h-full">
           <div className="team flex gap-4 items-start justify-center">
             {/* Left column */}
             <div ref={leftColContainerRef} className="h-[80vh] w-[350px] overflow-hidden">
@@ -92,7 +92,7 @@ const OurTeam = () => {
                     width={350}
                     height={350}
                     quality={100}
-                    className="object-cover w-full h-[250px] sm:h-[350px]"
+                    className="object-cover w-full h-[250px] sm:h-[380px]"
                   />
                   <div className="member_name flex flex-col gap-2 text-center p-4">
                     <h4 className="capitalize text-primarygold mt-3 tracking-wider minion_font_italic text-xl sm:text-3xl">
@@ -111,7 +111,7 @@ const OurTeam = () => {
                     width={350}
                     height={350}
                     quality={100}
-                    className="object-cover w-full h-[250px] sm:h-[350px]"
+                    className="object-cover w-full h-[250px] sm:h-[380px]"
                   />
                   <div className="member_name flex flex-col gap-2 text-center p-4">
                     <h4 className="capitalize text-primarygold mt-3 tracking-wider minion_font_italic text-xl sm:text-3xl">
@@ -135,7 +135,7 @@ const OurTeam = () => {
                     width={350}
                     height={350}
                     quality={100}
-                    className="object-cover w-full h-[250px] sm:h-[350px]"
+                    className="object-cover w-full h-[250px] sm:h-[380px]"
                   />
                   <div className="member_name flex flex-col  text-center p-4">
                     <h4 className="capitalize text-primarygold mt-3 tracking-wider minion_font_italic text-xl sm:text-3xl">

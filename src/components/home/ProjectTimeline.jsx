@@ -10,20 +10,20 @@ gsap.registerPlugin(ScrollTrigger);
 
 const projects = [
   {
-    name: "Residential Projects",
+    name: "2020 - 2025",
     img: "/assets/home/timeline/1.webp",
     description:
       "We've been living 32 glorious years of quality construction. Our structures are vivid reflections of the umpteen efforts and passion that we put in to build an awe-inspiring lifestyle.",
   },
   {
-    name: "Commercial Projects",
-    img: "/assets/home/timeline/1.webp",
+    name: "2000 - 2020",
+    img: "/assets/home/timeline/2.webp",
     description:
       "Our commercial spaces are designed to blend innovation with functionality, delivering unmatched business environments.",
   },
   {
-    name: "Mixed Use Projects",
-    img: "/assets/home/timeline/1.webp",
+    name: "1993 - 2000",
+    img: "/assets/home/timeline/3.webp",
     description:
       "Blending residential and commercial excellence, our mixed-use developments redefine urban living.",
   },
@@ -173,13 +173,16 @@ const ProjectTimeline = () => {
     <section ref={sectionRef} className="timeline w-full min-h-screen text-white py-10 sm:py-24 relative overflow-hidden">
       <div ref={slidesRef} className="timeline flex w-full h-full">
         {projects.map((project, i) => (
-          <div key={i} className="project flex-shrink-0 w-screen h-full snap-start z-30 relative px-6 sm:px-20">
+          <div key={i} className="project flex-shrink-0 w-screen h-full snap-start z-30 relative px-6 sm:px-5">
             <div className="grid grid-cols-1 sm:grid-cols-3 h-full">
               {/* Project Name */}
               <div className="project_name flex sm:block justify-center sm:mt-28">
-                <h3 className="capitalize text-xl sm:text-4xl text-primarygold minion_font sm:max-w-[60%] mx-auto text-center tracking-widest">
+                <div className="relative sm:max-w-[60%] mx-auto">
+                <h3 className="capitalize text-xl sm:text-5xl text-primarygold minion_font_italic  text-center tracking-widest">
                   {project.name}
                 </h3>
+                <p className="text-end pe-10 mt-3 text-2xl minion_font_italic">years</p>
+                </div>
               </div>
 
               <div className="project_img relative z-20 flex justify-center items-center">
@@ -189,7 +192,7 @@ const ProjectTimeline = () => {
                   width={600}
                   height={600}
                   priority={i === 0} 
-                  className="max-h-[300px] sm:max-h-[70vh]  object-contain"
+                  className="h-[300px] sm:h-[550px] rounded-2xl object-cover"
                 />
               </div>
 

@@ -2,11 +2,11 @@
 
 const Hero = () => {
   return (
-    <section className="hero w-full sm:h-screen relative overflow-hidden">
+    <section className="hero w-full relative bg-black overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-b from-black/70 to-transparent pointer-events-none"></div>
 
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="w-full h-auto"
         autoPlay
         muted
         loop

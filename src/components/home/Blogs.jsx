@@ -58,7 +58,7 @@ const Blogs = () => {
     return (
         <section className="blogs w-full h-auto py-10 md:py-20 bg-[url(/assets/home/blog/blog_bg.webp)] bg-no-repeat bg-center bg-cover">
             <div className="relative max-w-6xl mx-auto h-full flex flex-col items-center sm:text-center px-4">
-                
+
                 <div className="absolute inset-0 flex justify-center mt-[100px] items-start pointer-events-none">
                     <Image
                         src="/assets/common/brand_full_pattern.webp"
@@ -78,7 +78,7 @@ const Blogs = () => {
                     </SubHeading>
                 </SlideIn>
 
-                <div className="blog_sec relative md:pb-40 mt-3 md:mt-10" ref={blogRef}>
+                <div className="blog_sec relative md:pb-52 mt-3 md:mt-10" ref={blogRef}>
                     {blogData.map((blog, i) => (
                         <div key={i} className="blog_item relative py-5 flex justify-center w-full " >
                             <div className="grid grid-cols-12 gap-3">
