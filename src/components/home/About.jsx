@@ -3,39 +3,15 @@
 import React, { useRef, useEffect } from "react";
 import Image from "next/image";
 import { SubHeading, Heading } from "../common/CommonHeading";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
 import SlideIn from "@/utils/Animations/SlideIn";
 
-gsap.registerPlugin(ScrollTrigger);
 
 const About = () => {
-  // const curtainRef = useRef(null);
-
-  // useEffect(() => {
-  //   if (!curtainRef.current) return;
-
-  //   gsap.fromTo(
-  //     curtainRef.current,
-  //     { scaleX: 0, transformOrigin: "left left" },
-  //     {
-  //       scaleX: 1,
-  //       duration: 2,
-  //       ease: "power3.out",
-  //       scrollTrigger: {
-  //         trigger: curtainRef.current,
-  //         start: "top 50%",
-  //         toggleActions: "play none none reverse",
-  //       },
-  //     }
-  //   );
-  //}, []);
-
+  
   return (
     <section className="relative w-full sm:h-screen pt-10 md:pt-20 bg-black text-white overflow-hidden">
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none overflow-hidden">
         <div
-          // ref={curtainRef}
           className="w-full h-full ">
           <Image
             src="/assets/common/wave_pattern.webp"
@@ -50,7 +26,7 @@ const About = () => {
       </div>
 
       {/* Content */}
-      <div className="relative sm:max-w-[50%] mx-auto h-full flex flex-col justify-center items-center text-center px-4">
+      <div className="relative sm:max-w-[60%] mx-auto h-full flex flex-col justify-center items-center text-center px-4">
         <SlideIn>
           <Heading>About Us</Heading>
           <SubHeading extraClass={"minion_font"}>

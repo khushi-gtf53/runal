@@ -82,7 +82,7 @@ const Blogs = () => {
                     {blogData.map((blog, i) => (
                         <div key={i} className="blog_item relative py-5 flex justify-center w-full " >
                             <div className="grid grid-cols-12 gap-3">
-                                <div className="col-span-12 sm:col-span-4 blog_date capitalize pt-2 text-primarygold tracking-wider text-[16px]">
+                                <div className="col-span-12 sm:col-span-4 blog_date capitalize pt-2 text-primarygold tracking-wider text-[13px] sm:text-[16px]">
                                     {blog.date}
                                     <span className="w-20 ms-4">  - - - - - - - - - - -  </span>
                                 </div>
