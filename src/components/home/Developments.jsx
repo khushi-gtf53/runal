@@ -94,19 +94,19 @@ const Developments = () => {
 
         <div ref={pointersRef} className="pointers flex flex-col gap-10 sm:pe-40">
           <div className="point text-center opacity-0">
-            <h3 className="heading capitalize minion_font_italic mb-2 tracking-wider text-gradient-gold text-3xl">
+            <h3 className="heading capitalize minion_font_italic mb-2 tracking-wider text-gradient-gold text-[34px]">
               2.5 million
             </h3>
             <p className="tracking-wider text-[16px]">Sq.Ft. of space delivered</p>
           </div>
           <div className="point text-center opacity-0">
-            <h3 className="heading uppercase minion_font_italic mb-2 tracking-wide text-gradient-gold text-3xl">
+            <h3 className="heading uppercase minion_font_italic mb-2 tracking-wide text-gradient-gold text-[34px]">
               30 +
             </h3>
             <p className="tracking-wider text-[16px]">Residential Projects</p>
           </div>
           <div className="point text-center opacity-0">
-            <h3 className="heading uppercase minion_font_italic mb-2 tracking-wider text-gradient-gold text-3xl">
+            <h3 className="heading uppercase minion_font_italic mb-2 tracking-wider text-gradient-gold text-[34px]">
               05 +
             </h3>
             <p className="tracking-wider text-[16px]">Commercial Projects</p>

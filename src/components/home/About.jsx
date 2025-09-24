@@ -44,7 +44,7 @@ const About = () => {
             height={1600}
             quality={100}
             priority
-            className="w-full h-full object-cover mix-blend-screen opacity-40"
+            className="w-full h-full object-contain mix-blend-screen opacity-40"
           />
         </div>
       </div>

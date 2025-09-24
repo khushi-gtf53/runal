@@ -59,7 +59,7 @@ const OurTeam = () => {
       <div className="grid grid-cols-12">
         {/* Left side heading */}
         <div className="col-span-12 sm:col-span-5 w-full h-full">
-          <div className="flex flex-col py-10 sm:py-0 justify-center w-full h-full relative gap-5 items-center sm:max-w-[60%] mx-auto">
+          <div className="flex flex-col py-10 sm:py-0 justify-center w-full h-full relative gap-5 items-center sm:max-w-[55%] mx-auto">
             <div className="absolute inset-0 flex justify-center items-start pointer-events-none">
               <Image
                 src="/assets/common/brand_full_pattern.webp"
@@ -92,7 +92,7 @@ const OurTeam = () => {
                     width={350}
                     height={350}
                     quality={100}
-                    className="object-contain w-full h-[250px] sm:h-[350px]"
+                    className="object-cover w-full h-[250px] sm:h-[350px]"
                   />
                   <div className="member_name flex flex-col gap-2 text-center p-4">
                     <h4 className="capitalize text-primarygold mt-3 tracking-wider minion_font_italic text-xl sm:text-3xl">
@@ -111,7 +111,7 @@ const OurTeam = () => {
                     width={350}
                     height={350}
                     quality={100}
-                    className="object-contain w-full h-[250px] sm:h-[350px]"
+                    className="object-cover w-full h-[250px] sm:h-[350px]"
                   />
                   <div className="member_name flex flex-col gap-2 text-center p-4">
                     <h4 className="capitalize text-primarygold mt-3 tracking-wider minion_font_italic text-xl sm:text-3xl">
@@ -135,9 +135,9 @@ const OurTeam = () => {
                     width={350}
                     height={350}
                     quality={100}
-                    className="object-contain w-full h-[250px] sm:h-[350px]"
+                    className="object-cover w-full h-[250px] sm:h-[350px]"
                   />
-                  <div className="member_name flex flex-col gap-2 text-center p-4">
+                  <div className="member_name flex flex-col  text-center p-4">
                     <h4 className="capitalize text-primarygold mt-3 tracking-wider minion_font_italic text-xl sm:text-3xl">
                       Amit Patel
                     </h4>

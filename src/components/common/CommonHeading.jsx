@@ -20,7 +20,7 @@ export const SubHeading = ({ children, extraClass }) => {
       ? "minion_font"
       : "minion_font_italic";
   return (
-    <p className={`sub_heading capitalize ${baseFont} text-[20px] sm:text-[30px] leading-[32px] tracking-[3px] py-5 ${extraClass || "" }`}>
+    <p className={`sub_heading capitalize ${baseFont} text-[20px] sm:text-[28px] leading-[38px] tracking-[3px] py-5 ${extraClass || "" }`}>
       {children}
     </p>
   );
