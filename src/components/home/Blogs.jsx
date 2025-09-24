@@ -58,6 +58,7 @@ const Blogs = () => {
     return (
         <section className="blogs w-full h-auto py-10 md:py-20 bg-[url(/assets/home/blog/blog_bg.webp)] bg-no-repeat bg-center bg-cover">
             <div className="relative max-w-6xl mx-auto h-full flex flex-col items-center sm:text-center px-4">
+                
                 <div className="absolute inset-0 flex justify-center mt-[100px] items-start pointer-events-none">
                     <Image
                         src="/assets/common/brand_full_pattern.webp"
@@ -68,8 +69,8 @@ const Blogs = () => {
                         priority
                         className="max-w-full max-h-full object-cover mix-blend-screen opacity-20"
                     />
-
                 </div>
+
                 <SlideIn>
                     <Heading extraClass={"text-center"}>lastest posts and insights</Heading>
                     <SubHeading extraClass={'sm:max-w-[70%] text-center mx-auto italic'}>
@@ -83,7 +84,7 @@ const Blogs = () => {
                             <div className="grid grid-cols-12 gap-3">
                                 <div className="col-span-12 sm:col-span-4 blog_date capitalize pt-2 text-primarygold tracking-wider text-[16px]">
                                     {blog.date}
-                                    <span className="w-20 ms-4">- - - - - - - - - - -  </span>
+                                    <span className="w-20 ms-4">  - - - - - - - - - - -  </span>
                                 </div>
                                 <div className="col-span-12 sm:col-span-5 blog_description pe-3">
                                     <p className="text-left leading-[30px] tracking-[1px]">
@@ -98,7 +99,6 @@ const Blogs = () => {
                         </div>
                     ))}
 
-
                     <div className="pagination flex justify-center mt-10">
                         <div className="flex gap-4 items-center">
                             <SlArrowLeft className='text-primarygold' />
@@ -112,6 +112,7 @@ const Blogs = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
     )

@@ -86,19 +86,13 @@ const Developments = () => {
       </div>
 
       <div className="relative z-10 max-w-[90%] mx-auto h-full sm:flex justify-between items-center">
-        <div
-          ref={headingRef}
-          className="subheading max-w-lg text-center opacity-0"
-        >
+        <div ref={headingRef} className="subheading max-w-lg text-center opacity-0">
           <SubHeading extraClass="text-gradient-gold">
             Creating the world's finest developments
           </SubHeading>
         </div>
 
-        <div
-          ref={pointersRef}
-          className="pointers flex flex-col gap-10 sm:pe-40"
-        >
+        <div ref={pointersRef} className="pointers flex flex-col gap-10 sm:pe-40">
           <div className="point text-center opacity-0">
             <h3 className="heading capitalize minion_font_italic mb-2 tracking-wider text-gradient-gold text-3xl">
               2.5 million
@@ -118,7 +112,6 @@ const Developments = () => {
             <p className="tracking-wider text-[16px]">Commercial Projects</p>
           </div>
         </div>
-
       </div>
     </section>
   );
