@@ -54,15 +54,11 @@ const About = () => {
         <SlideIn>
           <Heading>About Us</Heading>
           <SubHeading extraClass={"minion_font"}>
-            Creating the world's finest developments
+            Every Space We Create Reflects the Mark of You.
           </SubHeading>
 
           <p className="description font-[100]">
-            We've been living 32 glorious years of quality construction. Our
-            structures are vivid reflections of the umpteen efforts and passion
-            that we put in to build an awe-inspiring lifestyle. We are one of the
-            finest builders in Pune, known for our quality construction. We build
-            Quality. We are Quality!
+           For over three decades, Runal has not just constructed buildings; it has shaped the urban fabric of Pune and redefined what it means to build with purpose. From the beginning, it was never about doing what sells, but about doing what stands. What endures. Long before the rulebook was written, Runal had already mastered the discipline, securing approvals, upholding timelines, and delivering not out of requirement, but conviction. Because delivery wasn’t just a checkbox; it was a matter of honour.
           </p>
         </SlideIn>
 

@@ -74,7 +74,7 @@ const OurTeam = () => {
             <SlideIn>
               <Heading extraClass={"text-center"}>our team</Heading>
               <SubHeading extraClass={"text-center"}>
-                Every Shape, Every curve, every surface is designed to blend with the landscape.
+                The Visionaries, Innovators, and Passionate Minds Who Bring Our Projects to Life
               </SubHeading>
             </SlideIn>
           </div>

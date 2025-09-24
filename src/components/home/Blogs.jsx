@@ -74,7 +74,7 @@ const Blogs = () => {
                 <SlideIn>
                     <Heading extraClass={"text-center"}>lastest posts and insights</Heading>
                     <SubHeading extraClass={'sm:max-w-[70%] text-center mx-auto italic'}>
-                        Every story shared here is reflection of connection, trust, and transformation
+                       Insights, Trends, and Real Estate Stories That Shape the Future of Urban Living
                     </SubHeading>
                 </SlideIn>
 
